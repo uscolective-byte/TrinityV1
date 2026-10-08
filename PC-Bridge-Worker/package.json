@@ -1,0 +1,19 @@
+{
+  "name": "trinity-pc-bridge-worker",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "wrangler deploy --dry-run --outdir dist",
+    "deploy": "wrangler deploy",
+    "test": "node --test tests/*.test.mjs",
+    "types": "wrangler types"
+  },
+  "devDependencies": {
+    "wrangler": "4.145.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "workerd@1.20260930.2": true
+  }
+}
