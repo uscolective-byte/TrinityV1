@@ -1,0 +1,13 @@
+**/node_modules/
+**/.credentials/
+**/.wrangler/
+**/.firebase/
+**/dist/
+**/*.log
+Zaznamy/
+Referencie/
+Prototypy/
+*.dpapi
+.env
+.env.*
+.dev.vars
